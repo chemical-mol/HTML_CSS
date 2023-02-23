@@ -1,0 +1,83 @@
+html{
+	background:#B5B6B6;
+
+
+}
+header{
+	font-size: 42;
+	font-family: sans-serif;
+	background: #5C5B5B;
+}
+
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 200px;
+  }
+
+  li {
+
+    display: inline-block;
+    margin-left: 130px;
+
+  }
+
+
+
+<ul>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+  <li>Item 4</li>
+</ul>
+
+body{
+	margin: 1300px 420px;
+}
+main{
+	width: auto;
+	background:#B5B6B6;
+	margin: 0px 0px;
+}
+.contra_capa{
+	background-color: white;
+	margin: 8px 0px;
+	padding: 0px 110px 0px 120px;
+}
+
+
+h1{
+	font-family: sans-serif;
+	font-size: 40px;
+	text-align: center;
+	background: white;
+	margin-left:20 px;
+	margin-top: 30px;
+	
+}
+.conteiner{
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+
+
+
+
+
+	font-size: 20px;
+	font-family: sans-serif;
+	text-align: left;
+	margin-right: 600px;
+	padding-bottom: 140px;
+	background: white;
+	
+
+
+	}
+.conteiner > div {
+
+	flex: 1;
+	height: 100%;
+}
+
+}
