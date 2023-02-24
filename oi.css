@@ -1,0 +1,108 @@
+/*config padrão*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+/*configurações que alteram tudo no site*/
+*{ 
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'open sans', sans-serif;
+}
+
+html,body{
+	height: 100%;
+
+
+}
+
+.container{
+	max-height: 1200px;
+	margin: 0 auto;
+	padding: 0 2%;
+}
+
+.clear{
+	clear: both;
+}
+
+.left{
+	float: left;
+
+}
+.right{
+	float: right;
+}
+
+/*header*/
+
+header .container{
+	padding: 30px 20%;
+}
+header .logo h2{
+	color: #123EAE;
+	cursor: pointer;
+
+}
+header .menu ul {
+	list-style-type: none;
+
+}
+header .menu ul li{
+	display:inline-block ;
+	cursor: pointer;
+	font-size: 13px;
+	padding: 4px;
+	border-radius: 8px;
+}
+
+header .menu ul li:not(.not){
+	border:0.5px solid #123EAE;
+}
+
+header .menu ul li input[type=text]{
+	width: 100px;
+	padding: 4px 4%;
+	border-radius: 8px;
+	border:0.5px solid #123EAE;
+	margin-right: 2px;
+}
+
+
+header .menu ul li a{
+	text-decoration: none;
+	color: #123EAE;
+
+}
+/*box-captura*/
+
+section.box-captura{
+	background-color: grey;
+	height: 200px;
+}
+/*content*/
+
+section.content{
+	background-color: yellow;
+	height: 300px;
+	padding: 0 12%;
+}
+
+div.post{
+
+	height: 100%;
+	background-color: green;
+	width: 80%;
+
+}
+
+div.sidebar{
+	background-color: purple;
+	height: 100%;
+	width: 20%;
+}
+/*footer*/
+
+footer{
+	background-color: darkred;
+	height: 180px;
+}
